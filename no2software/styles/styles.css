@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    background: yellow;
+}
+
+header {
+    margin: 10px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 2fr 10fr
+}
+
+.navbar {
+    margin: 10px 10px;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 18px;
+}
+
+.navitem > a { text-decoration: none; }
+.navitem > a:visited { color: inherit; }
